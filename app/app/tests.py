@@ -10,4 +10,4 @@ class ClacTests(SimpleTestCase):
     def test_add(self):
         res = calc.add(5, 6)
 
-        self.assertEqual(res, 1)
+        self.assertEqual(res, 11)
